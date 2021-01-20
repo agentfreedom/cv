@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #595959;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 89px;
+  font-weight: 700;
+  color: #000000;
+}
+
+h2 {
+  font-weight: 700;
+  color: #000000;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+
+h5 {
+  font-weight: 700;
+  color: #000000;
+}
+
+.wrapper {
+  background-color: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background-color: #1e2939;
+  width: 33%;
+  min-width: 280px;
+  padding: 40px 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.sidebar__blok {
+  padding: 55px 40px 0;
+}
+
+.sidebar__blok-title {
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.contacts__link {
+  opacity: 0.5;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.contacts__link:hover {
+  color: #ffdd00;
+  text-decoration: underline;
+}
+
+.span {
+  color: #f6f6f7;
+}
+
+.span-weight {
+  font-weight: 700;
+}
+.span__color--white {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.span__color--orange {
+  color: #ff6b08;
+}
+
+.span__data {
+  font-size: 12px;
+  color: #a8a8a8;
+}
+
+.sidebar__blok-list {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ee660b;
+  margin-left: 15px;
+}
+
+.about-me {
+  width: 77%;
+  padding: 110px 90px;
+}
+
+.about-me__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.about-me__title {
+  font-size: 45px;
+  line-height: 89px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.about-me__description {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #595959;
+  padding: 0 10px 10px 0;
+}
+
+.about-me__blok {
+  padding-top: 60px;
+}
+
+.about-me__blok--title {
+  padding: 15px 0 10px;
+}
+
+.blok__title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.list {
+  padding: 10px 17px 0;
+}
+
+.list-item {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #595959;
+}
+
+.list-item::marker {
+  font-weight: 700;
+  color: #000000;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #595959;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.link:hover {
+  /* font-weight: 700; */
+  color: #ffdd00;
+  /* color: #000000; */
+  text-decoration: underline;
+}
+
+.company {
+  padding-top: 20px;
+}
+
+.data {
+  padding-top: 10px;
+}
