@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
   padding: 40px;
   font-size: 14px;
@@ -75,19 +75,31 @@ h5 {
 }
 
 .contacts__link {
-  opacity: 0.5;
-  color: #fff;
+  opacity: 0.7;
+  color: #f6f6f7;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 
 .contacts__link:hover {
-  color: #ffdd00;
+  color: #ff6b08;
   text-decoration: underline;
 }
 
 .span {
   color: #f6f6f7;
+}
+
+.span-link {
+  letter-spacing: 0.03em;
+  color: #f6f6f6;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.span-link:hover {
+  color: #ff6b08;
+  text-decoration: underline;
 }
 
 .span-weight {
@@ -142,7 +154,7 @@ h5 {
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #595959;
-  padding: 0 10px 10px 0;
+  padding: 10px 10px 10px 0;
 }
 
 .about-me__blok {
@@ -178,9 +190,6 @@ h5 {
 }
 
 .link {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
   letter-spacing: 0.03em;
   color: #595959;
   text-decoration: none;
@@ -188,9 +197,7 @@ h5 {
 }
 
 .link:hover {
-  /* font-weight: 700; */
-  color: #ffdd00;
-  /* color: #000000; */
+  color: #ff6b08;
   text-decoration: underline;
 }
 
